@@ -1,0 +1,102 @@
+.navbar {
+  background-color: rgb(44, 62, 80);
+  transition: padding 0.3s ease, font-size 0.3s ease;
+  z-index: 1000;
+}
+
+.homePage , .aboutPage {
+  background-color: rgb(26, 188, 156);
+  padding: 200px 0 100px 0;
+}
+.aboutPage{
+  padding: 300px 0 200px 0;
+}
+.line{
+  background-color: white;
+  width: 100px;
+  height: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.footer{
+  background-color: rgb(44, 62, 80);
+  padding: 20px;
+}
+.about{
+  padding: 0 50px;
+}
+.img{
+  width: 17%;
+}
+.ab{
+  font-size: 50px;
+}
+.portfolio{
+  background-color: white;
+  padding: 130px 0px;
+  .imgs{
+    padding-top: 70px;
+  }
+}
+.Content {
+    padding: 130px 0px;
+}
+.notfound{
+  height: 70vh;
+    padding: 130px 0px;
+
+}
+.imgs img:hover{
+  cursor: pointer;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.plus {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  width: 95%;
+  height: 100%;
+  background-color: rgb(45, 179, 148);
+  opacity: 0;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image:hover .plus {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.nav-link{
+  color: white !important;
+}
+.active{
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  background-color:  rgb(45, 179, 148) !important;
+  border-radius: 10px !important;
+
+}
+.btn-send{
+  background-color: rgb(45, 179, 148) ;
+  transition: 0.5s;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  &:hover{
+  background-color: rgb(7, 82, 64) ;
+  }
+}
+.cpr{
+  background-color:  rgb(21, 33, 44);
+  padding: 10px;
+  margin: 0;
+}
