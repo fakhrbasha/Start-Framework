@@ -2,7 +2,7 @@ const About = () => {
     return (
         <>
             <div className="aboutPage d-flex justify-content-center align-items-center flex-column ">
-                <h1 className="ab fw-bold text-white">About Component</h1>
+                <h1 className="ab fw-bold text-white text-center">About Component</h1>
                 <div className="lines pt-3 d-flex justify-content-center align-items-center">
                     <div className="line me-3"></div>
                     <i class="fa-solid fa-star text-white"></i>

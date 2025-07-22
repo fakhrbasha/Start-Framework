@@ -34,7 +34,7 @@ export default function Content() {
                 <div className="line me-3" style={{ backgroundColor: 'black' }}></div>
             </div>
 
-            <div className="contactInfo d-flex justify-content-center align-items-center flex-column">
+            <div className="contactInfo d-flex justify-content-center align-items-center flex-column pt-5">
                 {/* Username input */}
                 <div className="w-50 position-relative mb-3">
                     {username && (

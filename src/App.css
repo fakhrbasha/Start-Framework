@@ -100,3 +100,30 @@
   padding: 10px;
   margin: 0;
 }
+
+.loca  , .around{
+padding-bottom: 20px;
+text-align: center;
+}
+.aboutF{
+padding-top: 20px;
+}
+
+@media (min-width: 768px){
+
+.loca , .around , .aboutF{
+padding-bottom: 0;
+}
+}
+/* large devices */
+@media (min-width: 1024px){
+    
+}
+/* extra large devices */
+@media (min-width: 1280px){
+
+}
+/* extra extra large devices */
+@media (min-width: 1536px){
+
+}
