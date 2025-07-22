@@ -2,7 +2,7 @@
 import './App.css'
 import Home from './components/home'
 import "@fortawesome/fontawesome-free/css/all.css"
-import About from './pages/about'
+import About from './pages/About'
 import Portfolio from './pages/portfolio'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import NotFound from './notFound/NotFound'
