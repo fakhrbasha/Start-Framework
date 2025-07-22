@@ -1,8 +1,6 @@
 
 import './App.css'
-import Footer from './components/footer'
 import Home from './components/home'
-import Navbar from './components/Navbar'
 import "@fortawesome/fontawesome-free/css/all.css"
 import About from './pages/about'
 import Portfolio from './pages/portfolio'
